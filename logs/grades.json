@@ -1,0 +1,1 @@
+[{"func_name": "test_factorial", "passing": false, "test_name": "Calcul de la factorielle", "points": 1}, {"func_name": "test_prefixes", "passing": false, "test_name": "Utilisation des pr\u00e9fixes", "points": 1}, {"func_name": "test_summation", "passing": false, "test_name": "Calcul de la sommation", "points": 1}]

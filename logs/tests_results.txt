@@ -1,0 +1,52 @@
+test_factorial (__main__.TestExercice) ... FAIL
+test_prefixes (__main__.TestExercice) ... FAIL
+test_summation (__main__.TestExercice) ... FAIL
+
+======================================================================
+FAIL: test_factorial (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 50, in test_factorial
+    'Erreur dans le remplacement de caractère'
+AssertionError: Lists differ: [0, 6, 40320, 3628800] != [1, 6, 40320, 3628800]
+
+First differing element 0:
+0
+1
+
+- [0, 6, 40320, 3628800]
+?  ^
+
++ [1, 6, 40320, 3628800]
+?  ^
+ : Erreur dans le remplacement de caractère
+
+======================================================================
+FAIL: test_prefixes (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 20, in test_prefixes
+    'Mauvaise identification de la parité de la longueur de la chaine'
+AssertionError: Lists differ: ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack'] != ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']
+
+Second list contains 1 additional elements.
+First extra element 7:
+'Qack'
+
+- ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack']
++ ['Jack', 'Kack', 'Lack', 'Mack', 'Nack', 'Oack', 'Pack', 'Qack']
+?                                                        ++++++++
+ : Mauvaise identification de la parité de la longueur de la chaine
+
+======================================================================
+FAIL: test_summation (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 38, in test_summation
+    'Retrait du mauvais caractère'
+AssertionError: 24680 != 24133 : Retrait du mauvais caractère
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.005s
+
+FAILED (failures=3)
